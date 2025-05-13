@@ -68,6 +68,8 @@ A full-stack web application to fetch and visualize **Chrome UX Report (CrUX)** 
 git clone https://github.com/your-repo/crux-analyzer.git
 cd crux-analyzer
 
+---
+
 🔐 Add Environment Variables
 Create backend/.env:
 
