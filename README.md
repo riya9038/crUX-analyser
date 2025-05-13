@@ -83,17 +83,21 @@ npm install
 
 ## Install frontend dependencies
 cd frontend
+
 npm install
 
 ## ▶️ Run the App
 
 ### In terminal 1
 cd backend
+
 npm start
 
 ### In terminal 2
 cd frontend
+
 npm run dev
+
 Open 👉 http://localhost:5173
 
 # 🎥 Demo Preview
