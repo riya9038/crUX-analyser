@@ -1,8 +1,8 @@
 # Overview 
-I've created a full-stack application that fetches and displays Chrome UX Report (CrUX) data for one or more URLs. The application consists of:/
-React frontend with Material UI/
-Node.js/Express backend/
-Integration with Google's CrUX API/
+I've created a full-stack application that fetches and displays Chrome UX Report (CrUX) data for one or more URLs. The application consists of:
+- React frontend with Material UI
+- Node.js/Express backend
+- Integration with Google's CrUX API
 
 # Project Structure
 
