@@ -73,31 +73,40 @@ cd crux-analyzer
 Create backend/.env:
 
 GOOGLE_API_KEY=your_google_api_key
+
 PORT=5000
 
 # 📦 Install Dependencies
 
 ## Install backend dependencies
+```
 cd backend
 npm install
 
-## Install frontend dependencies
-cd frontend
+```
 
+## Install frontend dependencies
+```
+cd frontend
 npm install
+
+```
 
 ## ▶️ Run the App
 
 ### In terminal 1
+```
 cd backend
-
 npm start
 
-### In terminal 2
-cd frontend
+```
 
+### In terminal 2
+```
+cd frontend
 npm run dev
 
+```
 Open 👉 http://localhost:5173
 
 # 🎥 Demo Preview
