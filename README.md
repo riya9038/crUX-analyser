@@ -87,18 +87,18 @@ npm install
 
 ## ▶️ Run the App
 
-# In terminal 1
+### In terminal 1
 cd backend
 npm start
 
-# In terminal 2
+### In terminal 2
 cd frontend
 npm run dev
 Open 👉 http://localhost:5173
 
 # 🎥 Demo Preview
 
-📺 Watch Demo Video (Insert your video link here)
+📺 Watch Demo Video (https://crux-analyzer.netlify.app/)
 
 # 🧠 Design Highlights
 ## 🖼️ Frontend
