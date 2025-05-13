@@ -12,6 +12,14 @@
 
 ![Screenshot 2025-05-14 015452](https://github.com/user-attachments/assets/cb9ac60e-2c81-46d7-865f-4dc7120a0a56)
 
+## Sorting Data based on URL
+
+![Screenshot 2025-05-14 020536](https://github.com/user-attachments/assets/de854fb0-c8ba-4c3e-899b-966540f3308d)
+
+## Sorting Data based on Metrics
+
+![Screenshot 2025-05-14 020604](https://github.com/user-attachments/assets/d748eddf-9b68-4547-b7a5-555f2433cc78)
+
 ## Filtering Metrics
 
 ![Screenshot 2025-05-14 015518](https://github.com/user-attachments/assets/80eaf7a5-2fe6-4aa3-bada-9072e47bf6c0)
