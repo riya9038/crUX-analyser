@@ -54,7 +54,7 @@ I've created a full-stack application that fetches and displays Chrome UX Report
 - Create .env files:
 ### server/.env:
 
-GOOGLE_API_KEY=your_api_key
+GOOGLE_API_KEY=your_api_key \n
 PORT=5000
 
 ## Install dependencies:
