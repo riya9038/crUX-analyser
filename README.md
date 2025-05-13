@@ -52,9 +52,9 @@ I've created a full-stack application that fetches and displays Chrome UX Report
 ## Installation
 - Clone the repository
 - Create .env files:
-### server/.env:
+### backend/.env:
 
-GOOGLE_API_KEY=your_api_key \n
+GOOGLE_API_KEY=your_api_key
 PORT=5000
 
 ## Install dependencies:
