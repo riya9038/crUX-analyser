@@ -59,11 +59,11 @@ const InsightsPanel = ({ data }) => {
   const insights = getInsights();
 
   return (
-    <Paper sx={{ p: 2, mb: 3, bgcolor: "red" }}>
+    <Paper sx={{ p: 2, mb: 3, bgcolor: "#78a010d4" }}>
       <Typography
         variant="h6"
         gutterBottom
-        sx={{ bgcolor: "white", p: 1, borderRadius: 2, fontWeight: 700 }}
+        sx={{ bgcolor: "white", p: 1, borderRadius: 2, fontWeight: 7 }}
       >
         Performance Insights
       </Typography>

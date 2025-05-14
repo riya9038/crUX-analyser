@@ -30,7 +30,7 @@ const SummaryStats = ({ data }) => {
   const clsStats = calculateStats("cumulative_layout_shift");
 
   return (
-    <Paper sx={{ p: 2, mb: 3, bgcolor: "#ffc500" }}>
+    <Paper sx={{ p: 2, mb: 3, bgcolor: "#f8cf41fa" }}>
       <Typography
         variant="h6"
         gutterBottom
