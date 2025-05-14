@@ -1,5 +1,6 @@
 import React from "react";
 import { Typography, Paper, Grid } from "@mui/material";
+import SummaryItem from "./SummaryItem";
 
 const SummaryStats = ({ data }) => {
   let values = null;
@@ -29,43 +30,26 @@ const SummaryStats = ({ data }) => {
   const clsStats = calculateStats("cumulative_layout_shift");
 
   return (
-    <Paper sx={{ p: 2, mb: 3 }}>
-      <Typography variant="h6" gutterBottom>
+    <Paper sx={{ p: 2, mb: 3, bgcolor: "#ffc500" }}>
+      <Typography
+        variant="h6"
+        gutterBottom
+        sx={{ bgcolor: "white", p: 1, borderRadius: 2, fontWeight: 700 }}
+      >
         Summary Statistics
       </Typography>
-      <Grid container spacing={2}>
-        <Grid item xs={12} sm={6} md={3}>
-          <Typography variant="subtitle2">
-            First Contentful Paint (FCP)
-          </Typography>
-          <Typography>Avg: {fcpStats.avg.toFixed(0)}ms</Typography>
-          <Typography>Min: {fcpStats.min.toFixed(0)}ms</Typography>
-          <Typography>Max: {fcpStats.max.toFixed(0)}ms</Typography>
-        </Grid>
-        <Grid item xs={12} sm={6} md={3}>
-          <Typography variant="subtitle2">
-            Largest Contentful Paint (LCP)
-          </Typography>
-          <Typography>Avg: {lcpStats.avg.toFixed(0)}ms</Typography>
-          <Typography>Min: {lcpStats.min.toFixed(0)}ms</Typography>
-          <Typography>Max: {lcpStats.max.toFixed(0)}ms</Typography>
-        </Grid>
-        <Grid item xs={12} sm={6} md={3}>
-          <Typography variant="subtitle2">
-            Interaction To Next Paint(INP)
-          </Typography>
-          <Typography>Avg: {inpStats.avg.toFixed(0)}ms</Typography>
-          <Typography>Min: {inpStats.min.toFixed(0)}ms</Typography>
-          <Typography>Max: {inpStats.max.toFixed(0)}ms</Typography>
-        </Grid>
-        <Grid item xs={12} sm={6} md={3}>
-          <Typography variant="subtitle2">
-            Cumulative Layout Shift (CLS)
-          </Typography>
-          <Typography>Avg: {clsStats.avg.toFixed(2)}</Typography>
-          <Typography>Min: {clsStats.min.toFixed(2)}</Typography>
-          <Typography>Max: {clsStats.max.toFixed(2)}</Typography>
-        </Grid>
+      <Grid container spacing={2} sx={{ m: 2 }}>
+        {" "}
+        <SummaryItem title={"First Contentful Paint (FCP)"} stats={fcpStats} />
+        <SummaryItem
+          title={"Largest Contentful Paint (LCP)"}
+          stats={lcpStats}
+        />
+        <SummaryItem
+          title={"Interaction To Next Paint(INP)"}
+          stats={inpStats}
+        />
+        <SummaryItem title={"Cumulative Layout Shift (CLS)"} stats={clsStats} />
       </Grid>
     </Paper>
   );

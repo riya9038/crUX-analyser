@@ -40,25 +40,68 @@ function App() {
   };
 
   return (
-    <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
-      <Typography variant="h4" component="h1" gutterBottom>
-        Chrome UX Report Analyzer
-      </Typography>
-
-      <TextField
-        fullWidth
-        multiline
-        rows={4}
-        variant="outlined"
-        label="Enter URLs (one per line)"
-        inputProps={{
-          placeholder:
-            "For example:\nhttps://www.google.com\nhttps://www.example.org",
+    <Container
+      maxWidth="lg"
+      sx={{
+        mt: 4,
+        mb: 4,
+        bgcolor: "#f8f9fa",
+        py: 4,
+        fontFamily: '"Google Sans", "Roboto", sans-serif',
+      }}
+    >
+      <Box
+        sx={{
+          bgcolor: "white",
+          borderRadius: 2,
+          p: 3,
+          mb: 3,
+          boxShadow: 1,
+          border: "1px solid #dadce0",
         }}
-        value={urls}
-        onChange={(e) => setUrls(e.target.value)}
-        sx={{ mb: 2 }}
-      />
+      >
+        <Typography
+          variant="h4"
+          component="h1"
+          gutterBottom
+          sx={{
+            color: "#1a73e8",
+            fontWeight: 500,
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            gap: 1,
+          }}
+        >
+          Chrome UX Report Analyzer
+        </Typography>
+      </Box>
+
+      <Box
+        sx={{
+          bgcolor: "white",
+          borderRadius: 2,
+          p: 3,
+          mb: 3,
+          boxShadow: 1,
+          border: "1px solid #dadce0",
+        }}
+      >
+        <TextField
+          fullWidth
+          multiline
+          rows={4}
+          variant="outlined"
+          label="Enter URLs (one per line)"
+          inputProps={{
+            placeholder:
+              "For example:\nhttps://www.google.com\nhttps://www.example.org",
+          }}
+          value={urls}
+          onChange={(e) => setUrls(e.target.value)}
+          sx={{ mb: 2 }}
+        />
+      </Box>
 
       <Box sx={{ mb: 2 }}>
         <Button

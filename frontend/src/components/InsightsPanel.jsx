@@ -59,14 +59,18 @@ const InsightsPanel = ({ data }) => {
   const insights = getInsights();
 
   return (
-    <Paper sx={{ p: 2, mb: 3 }}>
-      <Typography variant="h6" gutterBottom>
+    <Paper sx={{ p: 2, mb: 3, bgcolor: "red" }}>
+      <Typography
+        variant="h6"
+        gutterBottom
+        sx={{ bgcolor: "white", p: 1, borderRadius: 2, fontWeight: 700 }}
+      >
         Performance Insights
       </Typography>
       <List>
         {insights.map((insight, index) => (
           <ListItem key={index}>
-            <ListItemIcon>
+            <ListItemIcon sx={{ minWidth: "30px" }}>
               {insight.type === "warning" ? (
                 <Warning color="warning" />
               ) : insight.type === "success" ? (
@@ -75,7 +79,7 @@ const InsightsPanel = ({ data }) => {
                 <Info color="info" />
               )}
             </ListItemIcon>
-            <ListItemText primary={insight.text} />
+            <ListItemText sx={{ color: "white" }} primary={insight.text} />
           </ListItem>
         ))}
       </List>
