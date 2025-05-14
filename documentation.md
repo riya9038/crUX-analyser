@@ -1,40 +1,36 @@
 # Screenshots
 
 ## Landing Page
-
-![Screenshot 2025-05-14 015744](https://github.com/user-attachments/assets/e4586d1b-4fb7-40df-836a-c497994d74c1)
+![Screenshot 2025-05-14 152328](https://github.com/user-attachments/assets/9e031988-7cee-4389-be6b-99c6a469da57)
 
 ## CRUX Report for a Single URL
 
-![Screenshot 2025-05-14 015355](https://github.com/user-attachments/assets/7b751902-921c-45b9-83a4-e3bf6832b8dc)
+![Screenshot 2025-05-14 152357](https://github.com/user-attachments/assets/027dbfd1-eab4-43c4-bdab-6ae2d46f7ca4)
 
 ## CRUX Report for Bulk URLs
 
-![Screenshot 2025-05-14 015452](https://github.com/user-attachments/assets/cb9ac60e-2c81-46d7-865f-4dc7120a0a56)
+![Screenshot 2025-05-14 152447](https://github.com/user-attachments/assets/55f6f5a1-a75c-49e8-8644-2a1729c5d9d8)
 
 ## Sorting Data based on URL
 
-![Screenshot 2025-05-14 020536](https://github.com/user-attachments/assets/de854fb0-c8ba-4c3e-899b-966540f3308d)
+![Screenshot 2025-05-14 152510](https://github.com/user-attachments/assets/46861ecb-fb87-4072-a07d-fe37b3a5d543)
 
 ## Sorting Data based on Metrics
 
-![Screenshot 2025-05-14 020604](https://github.com/user-attachments/assets/d748eddf-9b68-4547-b7a5-555f2433cc78)
+![Screenshot 2025-05-14 152538](https://github.com/user-attachments/assets/9c3df824-2068-4456-910f-269d7a563bed)
 
 ## Filtering Metrics
 
-![Screenshot 2025-05-14 015518](https://github.com/user-attachments/assets/80eaf7a5-2fe6-4aa3-bada-9072e47bf6c0)
-
-![Screenshot 2025-05-14 015535](https://github.com/user-attachments/assets/e3c3bdc1-05ef-4b0e-8ead-be75e205546d)
+![Screenshot 2025-05-14 152635](https://github.com/user-attachments/assets/c7fdf5ea-0297-4a37-a75d-5ea8c2439cc9)
 
 ## Empty State Mangaement
 
-![Screenshot 2025-05-14 015602](https://github.com/user-attachments/assets/f1fe0089-303f-4a64-9913-79cbd8234d67)
+![Screenshot 2025-05-14 152648](https://github.com/user-attachments/assets/6c55d1c6-ae18-4634-a455-51cb21e26196)
 
 ## Error Handling
+![Screenshot 2025-05-14 152555](https://github.com/user-attachments/assets/6a048bb6-0008-40b0-96c6-bcc7addb8f91)
 
-![Screenshot 2025-05-14 015630](https://github.com/user-attachments/assets/56802e2d-681d-4a6b-9b87-7f787aa4f3bb)
-
-![Screenshot 2025-05-14 015712](https://github.com/user-attachments/assets/046105b2-759b-49d4-a3c1-fe957b424f65)
+![Screenshot 2025-05-14 152618](https://github.com/user-attachments/assets/4fcc5e3a-0670-440d-9fc1-29dbd2c7cbff)
 
 # Known Issues
 
