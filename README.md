@@ -112,6 +112,7 @@ Open 👉 http://localhost:5173
 # 🎥 Demo Preview
 
 📺 Watch Demo Video (https://drive.google.com/file/d/1E5RHQVpIeXVKjcMocguqHFsYUJ2zok91/view?usp=sharing)
+
 📺 Watch Demo Link (https://crux-analyzer.netlify.app/)
 
 # 🧠 Design Highlights
