@@ -38,18 +38,29 @@ const SummaryStats = ({ data }) => {
       >
         Summary Statistics
       </Typography>
-      <Grid container spacing={2} sx={{ m: 2 }}>
+      <Grid container spacing={2} sx={{ m: 3 }}>
         {" "}
-        <SummaryItem title={"First Contentful Paint (FCP)"} stats={fcpStats} />
+        <SummaryItem
+          title={"First Contentful Paint (FCP)"}
+          stats={fcpStats}
+          unit={"ms"}
+        />
         <SummaryItem
           title={"Largest Contentful Paint (LCP)"}
           stats={lcpStats}
+          unit={"ms"}
         />
         <SummaryItem
           title={"Interaction To Next Paint(INP)"}
           stats={inpStats}
+          unit={"ms"}
         />
-        <SummaryItem title={"Cumulative Layout Shift (CLS)"} stats={clsStats} />
+        <SummaryItem
+          title={"Cumulative Layout Shift (CLS)"}
+          stats={clsStats}
+          unit={""}
+          fixedValue={2}
+        />
       </Grid>
     </Paper>
   );

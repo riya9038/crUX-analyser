@@ -15,6 +15,7 @@ import "./App.css";
 
 function App() {
   const [urls, setUrls] = useState("");
+  const [urlList, setUrlList] = useState([]);
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
@@ -30,6 +31,7 @@ function App() {
 
     try {
       const urlList = urls.split("\n").filter((url) => url.trim());
+      setUrlList(urlList);
       const results = await fetchCruxData(urlList);
       setData(results);
     } catch (err) {
@@ -123,7 +125,7 @@ function App() {
 
       {data.length > 0 && (
         <>
-          <SummaryStats data={data} />
+          {urlList.length > 1 && <SummaryStats data={data} />}
           <InsightsPanel data={data} />
           <DataTable data={data} />
         </>
