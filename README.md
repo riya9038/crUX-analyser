@@ -111,7 +111,8 @@ Open 👉 http://localhost:5173
 
 # 🎥 Demo Preview
 
-📺 Watch Demo Video (https://crux-analyzer.netlify.app/)
+📺 Watch Demo Video (https://drive.google.com/file/d/1E5RHQVpIeXVKjcMocguqHFsYUJ2zok91/view?usp=sharing)
+📺 Watch Demo Link (https://crux-analyzer.netlify.app/)
 
 # 🧠 Design Highlights
 ## 🖼️ Frontend
@@ -131,3 +132,24 @@ Open 👉 http://localhost:5173
 - CLS	Cumulative Layout Shift
 - INP	Interaction to Next Paint
 
+# 🚀 Deployment
+
+### Backend (Render)
+🔗 **Backend URL**: `https://crux-analyser.onrender.com`
+### Frontend (Netlify)
+🔗 **Frontend URL**: `https://crux-analyzer.netlify.app/`
+
+### Post-Deployment
+1. Enable CORS in backend (`app.js`):
+   ```js
+   app.use(cors({
+     origin: [
+       'https://crux-analyze.netlify.app',
+       'http://localhost:5173'
+     ]
+   }))
+2. Test API endpoint:
+```bash
+curl https://crux-analyser.onrender.com/api/crux
+
+```
